@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "nombre": "Venta de comestibles",
+      "valor": 120,
+      "tipo": "Ingreso"
+    },
+    {
+      "id": 2,
+      "nombre": "Pago de factura de electricidad",
+      "valor": 80,
+      "tipo": "Gasto"
+    }
+  ]
+  

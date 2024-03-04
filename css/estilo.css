@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+/* HEADER */
+
+header {
+    padding: 10px;
+    border-bottom: solid 3px rgba(17, 14, 17, 0.4);
+}
+
+
+/* MAIN */
+
+.fondo {
+    background-color: #154360;
+    padding: 50px;
+    color: #fafafa;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.fraseFinal {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bienvenidaUsuario {
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para el input y el botón de comenzar */
+#nombreUsuarioInput {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comenzarBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#comenzarBtn:hover {
+    background-color: #2980b9;
+}
+
+
+/* Estilos para el menú */
+
+.menu h2 {
+    font-size: 24px;
+}
+
+.menu ol {
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu button, .submenuBtn {
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+}
+
+.menu button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el formulario de búsqueda */
+#formularioBuscar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#formularioBuscar .form-control {
+    margin-right: 10px; /* Espacio entre el campo de texto y los botones */
+}
+
+#formularioBuscar button {
+    margin-left: 10px; /* Espacio entre los botones */
+}
+
+/* FOOTER */
+footer {
+    border-top: solid 3px rgba(17, 14, 17, 0.4);
+  }
